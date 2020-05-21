@@ -5,7 +5,7 @@
       <p>At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
       <div class="row mt-5">
         <div class="col-lg-4">
-          <div class="main-container">
+          <div class="main-container animated fadeInUp">
             <div class="image-container">
               <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             </div>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="main-container">
+          <div class="main-container animated fadeInUp">
             <div class="image-container">
               <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             </div>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="main-container">
+          <div class="main-container animated fadeInUp">
             <div class="image-container">
               <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             </div>
@@ -42,7 +42,7 @@
       </div>
       <div class="">
         <p class="exited">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
-        <a class="btn btn-primary mb-5 text-white join-team" href="#">
+        <a class="btn btn-primary mb-5 text-white join-team mt-4" href="#">
           Join the team
         </a>
       </div>

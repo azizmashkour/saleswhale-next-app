@@ -4,7 +4,7 @@
     <div class="our-office container">
       <div class="row mt-5">
         <div class="col-lg-6">
-          <div class="main-container p-5">
+          <div class="main-container p-5 animated fadeInUp">
             <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             <div class="desc-container">
               <h3 class="mt-4">Singapore</h3>
@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="main-container p-5">
+          <div class="main-container p-5 animated fadeInUp">
             <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             <div class="desc-container">
               <h3 class="mt-4">Washington DC</h3>
