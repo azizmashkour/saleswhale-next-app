@@ -1,0 +1,153 @@
+// Mobile ( 320px )
+@media (min-width: 320px) and (max-width: 600px) {
+  .desktop-only {
+    display: none!important;
+  }
+  .mobile-only {
+    display: block!important;
+  }
+  #investors .bg-primary-img {
+    background-size: cover;
+  }
+  .mobile-padding-0-2 {
+    padding: 0 1rem!important;
+  }
+  h2.common-title {
+    text-align: left!important;
+  }
+  .mobile-mt-4 {
+    margin-top: 1.5rem!important;
+  }
+  .wow-p {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+  }
+  .text-center {
+    text-align: left!important;
+  }
+  h3 {
+    font-size: 16px!important;
+    line-height: 24px!important;
+  }
+  .image-container, .image-container>img {
+    width: 56px!important;
+    height: 56px!important;
+  }
+  .desc-container {
+    h3 {
+      margin-top: 1rem!important;
+    }
+
+  }
+  .exited.some-paragraphes {
+    margin-top: 1rem!important;
+    text-align: left!important;
+  }
+  .btn {
+    display: block!important;
+  }
+  .our-office, .our-investors {
+    padding: 0!important;
+    .col-12 {
+      margin-bottom: 2rem!important;
+    }
+  }
+  .our-investors {
+    .main-container {
+      margin: 0!important;
+    }
+  }
+  #office .our-office .main-container p {
+    padding: 0px 2rem!important;
+  }
+}
+
+
+
+// Tablet ( 768px )
+@media (min-width: 768px) {
+  .desktop-only {
+    display: block!important;
+  }
+  .mobile-only {
+    display: none!important;
+  }
+}
+@media (min-width: 770px) {
+  .desk-ml-auto {
+    margin-left: initial!important;
+  }
+}
+@media (max-width: 768px) {
+  .desk-ml-auto {
+    margin-left: auto!important;
+  }
+  .mobile-ml-1 {
+    margin-left: .5rem!important;
+  }
+  .wow-h1 {
+    font-size: 32px!important;
+    line-height: 100%!important;
+    width: initial!important;
+  }
+  h2.common-title {
+    font-size: 32px!important;
+    line-height: 40px!important;
+  }
+  p {
+    font-size: 16px!important;
+    line-height: 24px!important;
+  }
+  #progress .year-container {
+    color: #0688FA;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: bold;
+    border-right: 3px solid;
+    height: 5rem;
+    display: inherit;
+    width: 7rem;
+  }
+
+  #progress img.msg {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    margin-left: 0 !important;
+    left: -2.2rem;
+    margin-right: 0!important;
+  }
+
+  #progress .short-desc {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 34px;
+    color: #002240;
+  }
+
+  #office .our-office {
+    .main-container {
+      padding: 1rem 0!important;
+    }
+  }
+  #investors .our-investors {
+    .main-container {
+      padding: 3rem 0!important;
+      img {
+        height: 72px!important;
+      }
+    }
+  }
+}
+
+
+
+// Desktop ( 1440px )
+@media (min-width: 1440px) {
+  .desktop-only {
+    display: block!important;
+  }
+  .mobile-only {
+    display: none!important;
+  }
+}
