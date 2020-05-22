@@ -1,9 +1,9 @@
 <template>
-  <section id="office" class="mt-5 text-center">
+  <section id="office" class="mt-5 text-center mobile-padding-0-2">
     <h2 class="common-title animated fadeInUp">Our Office</h2>
     <div class="our-office container">
       <div class="row mt-5">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-12">
           <div class="main-container p-5 animated fadeInUp">
             <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             <div class="desc-container">
@@ -12,7 +12,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-12">
           <div class="main-container p-5 animated fadeInUp">
             <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             <div class="desc-container">
@@ -31,6 +31,11 @@ export default {}
 </script>
 
 <style lang="scss">
+@media (max-width: 320px) {
+  #office {
+    background-size: cover;
+  }
+}
 #office {
   background-image: url(../../assets/images/office/bg1.svg);
   background-repeat: no-repeat;
