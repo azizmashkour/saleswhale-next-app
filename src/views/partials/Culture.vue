@@ -1,4 +1,3 @@
-<!-- culture view component -->
 <template>
   <section id="culture" class="mt-5 container text-center mobile-padding-0-2">
     <h2 class="common-title animated fadeInUp">Our Culture</h2>
@@ -56,12 +55,9 @@ export default {}
 </script>
 
 <style lang="scss">
-// culture view media query properties for (min-width: 320px) and (max-width: 600px) screens
 @media (min-width: 320px) and (max-width: 600px) {
   #culture>.about>.some-paragraphes{padding-right: 4rem;}
 }
-
-// culture view media query properties for web or large screens
 #culture {
   p {
     color: #537089;

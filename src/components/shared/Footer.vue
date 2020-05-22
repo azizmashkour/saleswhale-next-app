@@ -1,4 +1,3 @@
-<!-- app foooter component -->
 <template>
   <div class="pt-4" id="footer">
     <div class="mx-5 pb-5">
@@ -143,7 +142,6 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-// footer media query properties for (min-width: 320px) and (max-width: 600px) screens
 @media (min-width: 320px) and (max-width: 600px) {
   #footer {
     .mx-5 {
@@ -184,7 +182,6 @@ export default {}
   }
 }
 
-// footer media query properties for web or large screens
 #footer {
   .copy-rights {
     background-color: #F4F4F4;
