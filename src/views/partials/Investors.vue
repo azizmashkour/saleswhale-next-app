@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-12">
-          <div class="main-container p-5">
+          <div class="main-container p-5 desktop-mt-2">
             <img src="../../assets/images/investors/monk.svg" alt="bg" class="w-100">
           </div>
         </div>
@@ -27,8 +27,8 @@
     </div>
     <div class="the-future bg-primary m-5 desktop-only">
       <h3 class="mb-4 title animated fadeInUp">See the future</h3>
-      <a class="btn bg-white future-btn px-5 get-demo" href="#">Get a Demo</a>
-      <a class="btn btn-outline ml-3 text-white future-btn border-white px-5" href="#">Read use cases</a>
+      <a class="btn bg-white future-btn px-5 get-demo py-2" href="#">Get a Demo</a>
+      <a class="btn btn-outline ml-3 text-white future-btn border-white px-5 py-2" href="#">Read use cases</a>
     </div>
     <div class="the-mobile-future bg-primary-img mobile-only">
       <h3 class="mb-4 title animated fadeInUp">See the future</h3>

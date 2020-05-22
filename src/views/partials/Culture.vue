@@ -56,7 +56,14 @@ export default {}
 
 <style lang="scss">
 @media (min-width: 320px) and (max-width: 600px) {
-  #culture>.about>.some-paragraphes{padding-right: 4rem;}
+  #culture {
+    .about>.some-paragraphes {
+      padding-right: 4rem;
+    }
+    .desc-container h3 {
+      line-height: 24px;
+    }
+  }
 }
 #culture {
   p {

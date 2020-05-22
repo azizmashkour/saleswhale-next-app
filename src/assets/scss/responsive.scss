@@ -9,6 +9,9 @@
   #investors .bg-primary-img {
     background-size: cover;
   }
+  .mobile-mt-5 {
+    margin-top: 1rem!important;
+  }
   .mobile-padding-0-2 {
     padding: 0 1rem!important;
   }
@@ -73,30 +76,68 @@
     display: none!important;
   }
 }
-@media (min-width: 770px) {
-  .desk-ml-auto {
-    margin-left: initial!important;
+
+@media (min-width: 770px) and (max-width: 1399px){
+  .desktop-only {
+    display: block!important;
   }
+  .mobile-only {
+    display: none!important;
+  }
+  // .wow-h1 {
+  //   font-size: 32px!important;
+  //   line-height: 100%!important;
+  //   width: initial!important;
+  // }
+  // h2.common-title {
+  //   font-size: 32px!important;
+  //   line-height: 40px!important;
+  // }
+  // p {
+  //   font-size: 16px!important;
+  //   line-height: 24px!important;
+  // }
+  .navbar-nav-mobile {
+    display: inline;
+    margin-left: 1.5rem;
+    li {
+      display: inline-block;
+    }
+    li.active {
+      margin-left: .5rem;
+    }
+  }
+  #culture {
+    .about>.some-paragraphes, .exited.some-paragraphes {
+      padding: 0 7rem;
+    }
+    .desc-container h3 {
+      line-height: 24px;
+    }
+  }
+  #office .our-office .main-container {
+    padding: 1rem!important;
+    p {
+      padding: 0 2rem;
+    }
+  }
+  #investors .our-investors .main-container {
+    padding: 2rem!important;
+  }
+  // .desk-ml-auto {
+  //   margin-left: initial!important;
+  // }
 }
+
 @media (max-width: 768px) {
+  .desktop-mt-2 {
+    margin-top: 1.5rem!important;
+  }
   .desk-ml-auto {
     margin-left: auto!important;
   }
   .mobile-ml-1 {
     margin-left: .5rem!important;
-  }
-  .wow-h1 {
-    font-size: 32px!important;
-    line-height: 100%!important;
-    width: initial!important;
-  }
-  h2.common-title {
-    font-size: 32px!important;
-    line-height: 40px!important;
-  }
-  p {
-    font-size: 16px!important;
-    line-height: 24px!important;
   }
   #progress .year-container {
     color: #0688FA;
@@ -141,13 +182,33 @@
 }
 
 
-
-// Desktop ( 1440px )
-@media (min-width: 1440px) {
+@media (min-width: 601px) {
   .desktop-only {
     display: block!important;
   }
   .mobile-only {
     display: none!important;
+  }
+  #investors .the-future {
+    padding: 5rem 0!important;
+  }
+}
+// Desktop ( 1440px )
+@media (max-width: 1240px) {
+  .wow-h1 {
+    font-size: 32px!important;
+    line-height: 100%!important;
+    width: initial!important;
+  }
+  h2.common-title {
+    font-size: 32px!important;
+    line-height: 40px!important;
+  }
+  p {
+    font-size: 16px!important;
+    line-height: 24px!important;
+  }
+  #investors .the-future .title {
+    font-size: 28px;
   }
 }

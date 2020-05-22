@@ -49,7 +49,7 @@
         </div>
       </nav>
 
-      <div class="row mt-5 mobile-padding-0-2">
+      <div class="row mt-5 mobile-padding-0-2 mobile-mt-5">
         <div class="col-lg-12">
           <img src="../../assets/images/banner-version.svg" alt="Header bg" class="w-100 desktop-only">
           <img src="../../assets/images/mobile-banner-version.svg" alt="Header bg" class="w-100 mobile-only">
