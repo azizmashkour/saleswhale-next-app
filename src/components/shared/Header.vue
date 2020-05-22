@@ -1,3 +1,4 @@
+<!-- app header component -->
 <template>
   <section id="header">
     <div class="contact-us">
@@ -71,8 +72,8 @@
 <script>
 export default {}
 </script>
-
 <style lang="scss" scoped>
+// header media query properties for (min-width: 320px) and (max-width: 600px) screens
 @media (min-width: 320px) and (max-width: 600px) {
   .navbar-expand-lg {
     margin-left: 15px;
@@ -93,6 +94,8 @@ export default {}
     }
   }
 }
+
+// header media query properties for web or large screens
 #header {
   .navbar-brand {
     img {

@@ -1,3 +1,4 @@
+<!-- progress view component -->
 <template>
   <section id="progress" class="mt-5 container mb-5">
     <h2 class="common-title text-center mb-5 animated fadeInUp">Our Progress</h2>
@@ -54,6 +55,7 @@ export default {}
 </script>
 
 <style lang="scss">
+// progress view media query properties for web or large screens
 #progress {
   .our-progress {
     background-color: #EFF8FF;
