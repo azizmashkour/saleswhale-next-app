@@ -1,11 +1,10 @@
-<!-- office view component -->
 <template>
   <section id="office" class="mt-5 text-center mobile-padding-0-2">
     <h2 class="common-title animated fadeInUp">Our Office</h2>
     <div class="our-office container">
       <div class="row mt-5">
         <div class="col-lg-6 col-md-6 col-12">
-          <div class="main-container p-5 animated fadeInUp">
+          <div class="main-container p-4 animated fadeInUp">
             <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             <div class="desc-container">
               <h3 class="mt-4">Singapore</h3>
@@ -14,7 +13,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-12">
-          <div class="main-container p-5 animated fadeInUp">
+          <div class="main-container p-4 animated fadeInUp desktop-mt-2">
             <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             <div class="desc-container">
               <h3 class="mt-4">Washington DC</h3>
@@ -32,15 +31,11 @@ export default {}
 </script>
 
 <style lang="scss">
-// office view media query properties for (min-width: 320px) and (max-width: 600px) screens
 @media (max-width: 320px) {
   #office {
     background-size: cover;
   }
 }
-
-// office view media query properties for web or large screens
-
 #office {
   background-image: url(../../assets/images/office/bg1.svg);
   background-repeat: no-repeat;

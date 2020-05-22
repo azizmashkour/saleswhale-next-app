@@ -1,4 +1,3 @@
-<!-- app header component -->
 <template>
   <section id="header">
     <div class="contact-us">
@@ -50,7 +49,7 @@
         </div>
       </nav>
 
-      <div class="row mt-5 mobile-padding-0-2">
+      <div class="row mt-5 mobile-padding-0-2 mobile-mt-5">
         <div class="col-lg-12">
           <img src="../../assets/images/banner-version.svg" alt="Header bg" class="w-100 desktop-only">
           <img src="../../assets/images/mobile-banner-version.svg" alt="Header bg" class="w-100 mobile-only">
@@ -72,8 +71,8 @@
 <script>
 export default {}
 </script>
+
 <style lang="scss" scoped>
-// header media query properties for (min-width: 320px) and (max-width: 600px) screens
 @media (min-width: 320px) and (max-width: 600px) {
   .navbar-expand-lg {
     margin-left: 15px;
@@ -94,8 +93,6 @@ export default {}
     }
   }
 }
-
-// header media query properties for web or large screens
 #header {
   .navbar-brand {
     img {

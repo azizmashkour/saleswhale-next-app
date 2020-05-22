@@ -1,4 +1,3 @@
-<!-- investors view component -->
 <template>
   <section id="investors" class="text-center">
     <h2 class="common-title animated fadeInUp mobile-padding-0-2">Our Investors</h2>
@@ -10,7 +9,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-12">
-          <div class="main-container p-5">
+          <div class="main-container p-5 desktop-mt-2">
             <img src="../../assets/images/investors/monk.svg" alt="bg" class="w-100">
           </div>
         </div>
@@ -28,8 +27,8 @@
     </div>
     <div class="the-future bg-primary m-5 desktop-only">
       <h3 class="mb-4 title animated fadeInUp">See the future</h3>
-      <a class="btn bg-white future-btn px-5 get-demo" href="#">Get a Demo</a>
-      <a class="btn btn-outline ml-3 text-white future-btn border-white px-5" href="#">Read use cases</a>
+      <a class="btn bg-white future-btn px-5 get-demo py-2" href="#">Get a Demo</a>
+      <a class="btn btn-outline ml-3 text-white future-btn border-white px-5 py-2" href="#">Read use cases</a>
     </div>
     <div class="the-mobile-future bg-primary-img mobile-only">
       <h3 class="mb-4 title animated fadeInUp">See the future</h3>
@@ -44,7 +43,6 @@ export default {}
 </script>
 
 <style lang="scss">
-// culture view media query properties for (min-width: 320px) and (max-width: 600px) screens
 @media (min-width: 320px) and (max-width: 600px) {
   #investors {
     padding-top: 3rem!important;
@@ -71,9 +69,6 @@ export default {}
     height: 36px!important;
   }
 }
-
-// investors view media query properties for web or large screens
-
 #investors {
   background-image: url(../../assets/images/investors/bg1.svg);
   background-repeat: no-repeat;
