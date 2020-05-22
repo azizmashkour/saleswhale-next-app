@@ -1,4 +1,4 @@
-// Shared components
+// shared components
 import Footer from './shared/Footer.vue'
 import Header from './shared/Header.vue'
 

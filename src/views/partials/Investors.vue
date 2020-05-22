@@ -1,3 +1,4 @@
+<!-- investors view component -->
 <template>
   <section id="investors" class="text-center">
     <h2 class="common-title animated fadeInUp mobile-padding-0-2">Our Investors</h2>
@@ -43,6 +44,7 @@ export default {}
 </script>
 
 <style lang="scss">
+// culture view media query properties for (min-width: 320px) and (max-width: 600px) screens
 @media (min-width: 320px) and (max-width: 600px) {
   #investors {
     padding-top: 3rem!important;
@@ -69,6 +71,9 @@ export default {}
     height: 36px!important;
   }
 }
+
+// investors view media query properties for web or large screens
+
 #investors {
   background-image: url(../../assets/images/investors/bg1.svg);
   background-repeat: no-repeat;
