@@ -34,14 +34,14 @@
               <a class="nav-link" href="#">Company</a>
             </li>
           </ul>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav navbar-nav-mobile">
             <li class="nav-item">
               <a class="nav-link nav-link-w-100 btn btn-outline-primary" href="#">
                 Login
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link-w-100 btn btn-primary ml-3 text-white" href="#">
+            <li class="nav-item active">
+              <a class="nav-link nav-link-w-100 btn btn-primary ml-3 text-white mobile-margin-0" href="#">
                 Get a Demo
               </a>
             </li>
@@ -49,14 +49,15 @@
         </div>
       </nav>
 
-      <div class="row mt-5">
+      <div class="row mt-5 mobile-padding-0-2">
         <div class="col-lg-12">
-          <img src="../../assets/images/banner-version.svg" alt="Header bg" class="w-100">
+          <img src="../../assets/images/banner-version.svg" alt="Header bg" class="w-100 desktop-only">
+          <img src="../../assets/images/mobile-banner-version.svg" alt="Header bg" class="w-100 mobile-only">
         </div>
-        <div class="col-lg-6 mt-5">
+        <div class="col-12 col-md-6 col-lg-6 mt-5 mobile-mt-4">
           <h1 class="wow-h1 animated fadeInUp">A future where AI and humans work hand in hand</h1>
         </div>
-        <div class="col-lg-6 mt-5 px-0">
+        <div class="col-12 col-md-6 col-lg-6 mt-5 px-0 mobile-mt-4">
           <p class="wow-p animated fadeInUp">At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.</p>
           <p class="wow-p animated fadeInUp">AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative, high-impact work that creates value and inspires. The result? Happier and more productive teams doing meaningful work.</p>
           <p class="wow-p animated fadeInUp">Our mission is to put an AI assistant in every company that could greatly benefit from it, and we're starting off strong addressing this need in marketing and sales teams all across the world.</p>
@@ -72,6 +73,26 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+@media (min-width: 320px) and (max-width: 600px) {
+  .navbar-expand-lg {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mobile-margin-0 {
+    margin-left: 0!important;
+    margin-top: 1rem!important;
+  }
+  .navbar-nav-mobile {
+    display: inline;
+    margin-left: 1.5rem;
+    li {
+      display: inline-block;
+    }
+    li.active {
+      margin-left: .5rem;
+    }
+  }
+}
 #header {
   .navbar-brand {
     img {
