@@ -21,6 +21,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./assets/scss/responsive";
 @import "./assets/scss/animations";
 @import "./assets/scss/app";
 </style>
