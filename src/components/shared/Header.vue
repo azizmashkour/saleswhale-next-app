@@ -46,7 +46,7 @@
           <img src="../../assets/images/mobile-banner-version.svg" alt="Header bg" class="w-100 mobile-only">
         </div>
         <div class="col-12 col-md-6 col-lg-6 mt-5 mobile-mt-4">
-          <h1 class="wow-h1 animated fadeInUp">A future where AI and humans work hand in hand</h1>
+          <h1 class="wow-h1 animated fadeInUp header-title">A future where AI and humans work hand in hand</h1>
         </div>
         <div class="col-12 col-md-6 col-lg-6 mt-5 px-0 mobile-mt-4">
           <p class="wow-p p1 animated fadeInUp">At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.</p>

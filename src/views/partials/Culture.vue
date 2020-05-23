@@ -1,6 +1,6 @@
 <template>
   <section id="culture" class="mt-5 container text-center mobile-padding-0-2">
-    <h2 class="common-title animated fadeInUp our-culture">Our Culture</h2>
+    <h2 class="common-title animated fadeInUp culture-title">Our Culture</h2>
     <div class="about">
       <p class="some-paragraphes our-culture-paragraph">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
       <div class="row mt-5">
