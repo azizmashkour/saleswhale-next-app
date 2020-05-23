@@ -49,8 +49,8 @@ describe('Header.vue', () => {
 
   describe('contains title and paragraphes', () => {
     it('renders the header h1 tag title', () => {
-      expect(wrapper.contains('h1.wow-h1')).toBe(true)
-      expect(wrapper.find('h1.wow-h1').text()).toEqual('A future where AI and humans work hand in hand')
+      expect(wrapper.contains('h1.header-title')).toBe(true)
+      expect(wrapper.find('h1.header-title').text()).toEqual('A future where AI and humans work hand in hand')
     })
 
     it('renders the header p tag with wow-p.p1 className', () => {

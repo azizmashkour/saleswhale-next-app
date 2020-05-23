@@ -35,8 +35,8 @@ describe('Culture.vue', () => {
 
   describe('contains title and paragraphe', () => {
     it('renders the component h2 tag title', () => {
-      expect(wrapper.contains('h2.our-culture')).toBe(true)
-      expect(wrapper.find('h2.our-culture').text()).toEqual('Our Culture')
+      expect(wrapper.contains('h2.culture-title')).toBe(true)
+      expect(wrapper.find('h2.culture-title').text()).toEqual('Our Culture')
     })
 
     it('renders the header p tag with our-culture-paragraph className', () => {
