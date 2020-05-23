@@ -19,7 +19,7 @@ describe('Office.vue', () => {
     propsData: { items }
   })
 
-  it('renders Header component when mounted', () => {
+  it('renders Office component when mounted', () => {
     expect(wrapper.element).toMatchSnapshot()
   })
 

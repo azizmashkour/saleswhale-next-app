@@ -35,7 +35,7 @@ describe('Progress.vue', () => {
     propsData: { items }
   })
 
-  it('renders Header component when mounted', () => {
+  it('renders Progress component when mounted', () => {
     expect(wrapper.element).toMatchSnapshot()
   })
 
