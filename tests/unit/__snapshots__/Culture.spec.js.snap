@@ -7,7 +7,7 @@ exports[`Culture.vue contains list items  renders Header component when mounted 
   items="[object Object],[object Object],[object Object]"
 >
   <h2
-    class="common-title animated fadeInUp our-culture"
+    class="common-title animated fadeInUp culture-title"
   >
     Our Culture
   </h2>

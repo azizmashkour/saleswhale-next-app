@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Office.vue renders Header component when mounted 1`] = `
+<section
+  class="mt-5 text-center mobile-padding-0-2"
+  id="office"
+  items="[object Object],[object Object]"
+>
+  <h2
+    class="common-title animated fadeInUp office-title"
+  >
+    Our Office
+  </h2>
+   
+  <div
+    class="our-office container"
+  >
+    <div
+      class="row mt-5"
+    >
+      <div
+        class="col-lg-6 col-md-6 col-12 office-items"
+      >
+        <div
+          class="main-container p-4 animated fadeInUp"
+        >
+          <img
+            alt="bg"
+            class="w-100"
+            src="../../assets/images/culture/img1.svg"
+          />
+           
+          <div
+            class="desc-container"
+          >
+            <h3
+              class="mt-4"
+            >
+              Singapore
+            </h3>
+             
+            <p>
+              155B Telok Ayer Street Singapore, 068611
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-6 col-md-6 col-12 office-items"
+      >
+        <div
+          class="main-container p-4 animated fadeInUp"
+        >
+          <img
+            alt="bg"
+            class="w-100"
+            src="../../assets/images/culture/img1.svg"
+          />
+           
+          <div
+            class="desc-container"
+          >
+            <h3
+              class="mt-4"
+            >
+              Washington DC
+            </h3>
+             
+            <p>
+              1701 Rhode Island Ave NW Washington, DC 20036
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
