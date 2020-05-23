@@ -1,6 +1,6 @@
 <template>
   <section id="investors" class="text-center">
-    <h2 class="common-title animated fadeInUp mobile-padding-0-2">Our Investors</h2>
+    <h2 class="common-title animated fadeInUp mobile-padding-0-2 investors-title">Our Investors</h2>
     <div class="our-investors container">
       <div class="row mt-5 mobile-padding-0-2 mobile-margin-2">
         <div class="col-lg-6 col-md-6 col-12">
@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="the-future bg-primary m-5 desktop-only">
-      <h3 class="mb-4 title animated fadeInUp">See the future</h3>
+      <h3 class="mb-4 title animated fadeInUp see-the-future">See the future</h3>
       <a class="btn bg-white future-btn px-5 get-demo py-2" href="#">Get a Demo</a>
       <a class="btn btn-outline ml-3 text-white future-btn border-white px-5 py-2 read-use-cases" href="#">Read use cases</a>
     </div>
