@@ -1,9 +1,9 @@
 <template>
   <section id="progress" class="mt-5 container mb-5 px-0 px-sm-2">
-    <h2 class="common-title text-center mb-5 animated fadeInUp responsive-text-center">Our Progress</h2>
+    <h2 class="common-title text-center mb-5 animated fadeInUp responsive-text-center progress-title">Our Progress</h2>
     <div class="our-progress px-sm-5">
       <table class="table-year">
-        <tr v-for="(item, i) in list" :key="i">
+        <tr v-for="(item, i) in list" :key="i" class="progress-items">
           <td><div class="align-center year-container">{{item.year}}</div></td>
           <td class="mid-col"><img src="../../assets/images/progress/msg.svg" alt="bg" class="msg"></td>
           <td><span class="align-center short-desc">{{item.step}}</span></td>
