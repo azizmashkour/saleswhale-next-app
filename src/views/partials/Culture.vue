@@ -1,41 +1,17 @@
 <template>
   <section id="culture" class="mt-5 container text-center mobile-padding-0-2">
-    <h2 class="common-title animated fadeInUp">Our Culture</h2>
+    <h2 class="common-title animated fadeInUp our-culture">Our Culture</h2>
     <div class="about">
-      <p class="some-paragraphes">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
+      <p class="some-paragraphes our-culture-paragraph">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
       <div class="row mt-5">
-        <div class="col-lg-4 col-md-4">
+        <div v-for="(item, i) in list" :key="i" class="col-lg-4 col-md-4 culture-items">
           <div class="main-container animated fadeInUp">
             <div class="image-container">
               <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             </div>
             <div class="desc-container">
-              <h3 class="mt-4">Building for the future</h3>
-              <p>We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-          <div class="main-container animated fadeInUp">
-            <div class="image-container">
-              <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
-            </div>
-            <div class="desc-container">
-              <h3 class="mt-4">Promoting trust & transparency</h3>
-              <p>We remain completely open, honest and transparent with everyone. This has allowed us to build strong relationships with each other.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-          <div class="main-container animated fadeInUp">
-            <div class="image-container">
-              <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
-            </div>
-            <div class="desc-container">
-              <h3 class="mt-4">Achieving our very best</h3>
-              <p>We believe the success of the company lies within our employees and we constantly challenge each other to learn and level up.</p>
+              <h3 class="mt-4">{{item.title}}</h3>
+              <p>{{item.content}}</p>
             </div>
           </div>
         </div>
@@ -51,7 +27,26 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      list: [
+        {
+          title: 'Building for the future',
+          content: 'We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users.'
+        },
+        {
+          title: 'Promoting trust & transparency',
+          content: 'We remain completely open, honest and transparent with everyone. This has allowed us to build strong relationships with each other.'
+        },
+        {
+          title: 'Achieving our very best',
+          content: 'We believe the success of the company lies within our employees and we constantly challenge each other to learn and level up.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">
