@@ -32,7 +32,9 @@ h2.common-title {
 .btn-outline-primary:hover {
   box-shadow: 0 30px 60px 0 rgba(38, 59, 94, 0.1);
 }
-.btn:active, .btn:focus, .btn-outline-primary.focus, .btn-outline-primary:focus {
+.btn:active, .btn:focus,
+.btn-outline-primary.focus, .btn-outline-primary:focus,
+button:active, button:focus {
   outline: none!important;
   box-shadow: none!important;
 }
