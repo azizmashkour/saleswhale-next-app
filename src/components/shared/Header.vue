@@ -21,27 +21,18 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Why Saleswhale?
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Company</a>
+            <li v-for="(item, i) in list" :key="i" class="nav-item list-items">
+              <a :class="item.className" class="nav-link" href="#">{{item.title}}</a>
             </li>
           </ul>
           <ul class="navbar-nav navbar-nav-mobile">
             <li class="nav-item">
-              <a class="nav-link nav-link-w-100 btn btn-outline-primary" href="#">
+              <a class="nav-link nav-link-w-100 btn btn-outline-primary login-btn" href="#">
                 Login
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link nav-link-w-100 btn btn-primary ml-3 text-white mobile-margin-0" href="#">
+              <a class="nav-link nav-link-w-100 btn btn-primary ml-3 text-white mobile-margin-0 get-demo-btn" href="#">
                 Get a Demo
               </a>
             </li>
@@ -58,10 +49,10 @@
           <h1 class="wow-h1 animated fadeInUp">A future where AI and humans work hand in hand</h1>
         </div>
         <div class="col-12 col-md-6 col-lg-6 mt-5 px-0 mobile-mt-4">
-          <p class="wow-p animated fadeInUp">At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.</p>
-          <p class="wow-p animated fadeInUp">AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative, high-impact work that creates value and inspires. The result? Happier and more productive teams doing meaningful work.</p>
-          <p class="wow-p animated fadeInUp">Our mission is to put an AI assistant in every company that could greatly benefit from it, and we're starting off strong addressing this need in marketing and sales teams all across the world.</p>
-          <p class="wow-p animated fadeInUp">The future is where AI and humans work hand in hand, and we’re here to help businesses benefit from that.</p>
+          <p class="wow-p p1 animated fadeInUp">At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.</p>
+          <p class="wow-p p2 animated fadeInUp">AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative, high-impact work that creates value and inspires. The result? Happier and more productive teams doing meaningful work.</p>
+          <p class="wow-p p3 animated fadeInUp">Our mission is to put an AI assistant in every company that could greatly benefit from it, and we're starting off strong addressing this need in marketing and sales teams all across the world.</p>
+          <p class="wow-p p4 animated fadeInUp">The future is where AI and humans work hand in hand, and we’re here to help businesses benefit from that.</p>
         </div>
       </div>
     </div>
@@ -69,7 +60,26 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      list: [
+        {
+          title: 'Why Saleswhale?',
+          className: 'sales'
+        },
+        {
+          title: 'Product',
+          className: 'product'
+        },
+        {
+          title: 'Company',
+          className: 'company'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
