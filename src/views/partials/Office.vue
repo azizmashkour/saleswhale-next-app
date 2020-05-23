@@ -5,7 +5,9 @@
       <div class="row mt-5">
         <div v-for="(item, i) in list" :key="i" class="col-lg-6 col-md-6 col-12 office-items">
           <div class="main-container p-4 animated fadeInUp">
-            <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
+            <div class="office-header-image-container">
+              <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
+            </div>
             <div class="desc-container">
               <h3 class="mt-4">{{item.title}}</h3>
               <p>{{item.address}}</p>
@@ -58,9 +60,6 @@ export default {
       border-radius: 5px;
       text-align: center;
       background-color: #fff;
-      img {
-        height: 80px;
-      }
       h3 {
         font-weight: bold;
         font-size: 32px;
@@ -70,6 +69,13 @@ export default {
       p {
         color: #002240;
         padding: 0 5rem;
+      }
+      .office-header-image-container {
+        background-color: #F4F4F4;
+        height: 80px;
+        width: 80px;
+        display: inline-table;
+        border-radius: 50%;
       }
     }
     .main-container:hover {

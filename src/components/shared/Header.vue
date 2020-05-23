@@ -1,10 +1,10 @@
 <template>
   <section id="header">
-    <div class="contact-us">
+    <!-- <div class="contact-us">
       <a href="#">OUR COVID-19 RESPONSE</a>
-    </div>
+    </div> -->
     <div class="container px-0">
-      <nav class="navbar navbar-expand-lg navbar-light px-0 py-3">
+      <nav class="navbar navbar-expand-lg navbar-light px-0 py-4">
         <a class="navbar-brand" href="#">
           <img src="../../assets/images/logo.svg" alt="Logo" class="img-responsive">
         </a>
@@ -42,8 +42,10 @@
 
       <div class="row mt-5 mobile-padding-0-2 mobile-mt-5">
         <div class="col-lg-12">
-          <img src="../../assets/images/banner-version.svg" alt="Header bg" class="w-100 desktop-only">
-          <img src="../../assets/images/mobile-banner-version.svg" alt="Header bg" class="w-100 mobile-only">
+          <div class="image-container-header">
+            <img src="../../assets/images/banner-version.svg" alt="Header bg" class="w-100 desktop-only">
+            <img src="../../assets/images/mobile-banner-version.svg" alt="Header bg" class="w-100 mobile-only">
+          </div>
         </div>
         <div class="col-12 col-md-6 col-lg-6 mt-5 mobile-mt-4">
           <h1 class="wow-h1 animated fadeInUp header-title">A future where AI and humans work hand in hand</h1>
@@ -154,6 +156,11 @@ export default {
       border: 1px solid #ebebeb;
       border-radius: 2px;
     }
+  }
+  .image-container-header {
+    background-color: #F4F4F4;
+    min-height: 280px;
+    border-radius: 5px;
   }
 }
 </style>

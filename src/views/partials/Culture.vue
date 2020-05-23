@@ -6,7 +6,7 @@
       <div class="row mt-5">
         <div v-for="(item, i) in list" :key="i" class="col-lg-4 col-md-4 culture-items">
           <div class="main-container animated fadeInUp">
-            <div class="image-container">
+            <div class="image-container culture-img-container">
               <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             </div>
             <div class="desc-container">
@@ -61,6 +61,12 @@ export default {
   }
 }
 #culture {
+  .culture-img-container {
+    background-color: #F4F4F4;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
   p {
     color: #537089;
     font-size: 21px;

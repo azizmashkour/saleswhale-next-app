@@ -5,7 +5,11 @@
       <table class="table-year">
         <tr v-for="(item, i) in list" :key="i" class="progress-items">
           <td><div class="align-center year-container">{{item.year}}</div></td>
-          <td class="mid-col"><img src="../../assets/images/progress/msg.svg" alt="bg" class="msg"></td>
+          <td class="mid-col">
+            <div class="progress-image-container">
+              <img src="../../assets/images/progress/msg.svg" alt="bg" class="msg w-100">
+            </div>
+          </td>
           <td><span class="align-center short-desc">{{item.step}}</span></td>
         </tr>
       </table>
@@ -67,19 +71,21 @@ export default {
   }
 }
 #progress {
+  .progress-image-container {
+    background-color: #F4F4F4;
+    height: 60px;
+    width: 60px;
+    margin: 40px auto;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+  }
   .our-progress {
     background-color: #EFF8FF;
     border-radius: 5px;
   }
 
   .table-year {
-    img.msg {
-      height: 60px;
-      width: 60px;
-      position: relative;
-      margin: 40px auto;
-      display: block;
-    }
     .mid-col {
       min-width: 180px;
       position: relative;
