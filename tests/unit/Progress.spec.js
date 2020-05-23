@@ -1,4 +1,4 @@
-// culture component test file
+// progress component test file
 
 import { shallowMount } from '@vue/test-utils'
 import Progress from '@/views/partials/Progress'
@@ -37,6 +37,11 @@ describe('Progress.vue', () => {
 
   it('renders Header component when mounted', () => {
     expect(wrapper.element).toMatchSnapshot()
+  })
+
+  it('renders the component h2 tag title', () => {
+    expect(wrapper.contains('h2.progress-title')).toBe(true)
+    expect(wrapper.find('h2.progress-title').text()).toEqual('Our Progress')
   })
 
   it('renders li for each item in props.list', () => {
