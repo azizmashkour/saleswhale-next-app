@@ -140,7 +140,7 @@ exports[`Header.vue contains navbar menu element  renders Header component when 
         class="col-12 col-md-6 col-lg-6 mt-5 mobile-mt-4"
       >
         <h1
-          class="wow-h1 animated fadeInUp"
+          class="wow-h1 animated fadeInUp header-title"
         >
           A future where AI and humans work hand in hand
         </h1>
