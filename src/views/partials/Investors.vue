@@ -28,7 +28,7 @@
     <div class="the-future bg-primary m-5 desktop-only">
       <h3 class="mb-4 title animated fadeInUp">See the future</h3>
       <a class="btn bg-white future-btn px-5 get-demo py-2" href="#">Get a Demo</a>
-      <a class="btn btn-outline ml-3 text-white future-btn border-white px-5 py-2" href="#">Read use cases</a>
+      <a class="btn btn-outline ml-3 text-white future-btn border-white px-5 py-2 read-use-cases" href="#">Read use cases</a>
     </div>
     <div class="the-mobile-future bg-primary-img mobile-only">
       <h3 class="mb-4 title animated fadeInUp">See the future</h3>
@@ -135,6 +135,15 @@ export default {}
     .future-btn {
       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
       font-weight: bold;
+    }
+    .get-demo:hover {
+      background-color: transparent!important;
+      color: #fff!important;
+      border-color: #fff!important;
+    }
+    .read-use-cases:hover {
+      background-color: #fff;
+      color: #002240!important;
     }
   }
 }
