@@ -14,49 +14,22 @@
         <div class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-4 ml-auto">
           <ul class="list-unstyled list-spaced">
             <li class="mb-1">
-              <h5>Why Saleswhale?</h5>
+              <h5 class="sales-title">Why Saleswhale?</h5>
             </li>
-            <li class="py-1">
-              <a href="#">Collaborative Intelligence</a>
-            </li>
-            <li class="py-1">
-              <a href="#">AI Assistant Capabilities</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Customer Stories</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Use Case - Technology</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Use Case - Education</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Use Case - Events</a>
+            <li v-for="(item, i) in salesMenuItems" :key="i" class="py-1">
+              <a href="#" class="sales-items">{{item.title}}</a>
             </li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-3">
           <ul class="list-unstyled list-spaced">
             <li class="mb-1">
-              <h5>Product</h5>
+              <h5 class="product-title">Product</h5>
             </li>
             <div class="row no-gutters">
               <div class="col-lg-12">
-                <li class="py-1">
-                  <a href="#">Product</a>
-                </li>
-                <li class="py-1">
-                  <a href="#">AI Conversations</a>
-                </li>
-                <li class="py-1">
-                  <a href="#">Lead Enrichment</a>
-                </li>
-                <li class="py-1">
-                  <a href="#">Deal Intelligence</a>
-                </li>
-                <li class="py-1">
-                  <a href="#">Workflow Integration</a>
+                <li v-for="(item, i) in productMenuItems" :key="i" class="py-1">
+                  <a href="#" class="product-items">{{item.title}}</a>
                 </li>
               </div>
             </div>
@@ -65,48 +38,20 @@
         <div class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-4 ml-auto desk-ml-auto">
           <ul class="list-unstyled list-spaced">
             <li class="mb-1">
-              <h5>Company</h5>
+              <h5 class="company-title">Company</h5>
             </li>
-            <li class="py-1">
-              <a href="#">Company</a>
-            </li>
-            <li class="py-1">
-              <a href="#">About us</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Blog</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Resources</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Careers</a>
-            </li>
-            <li class="py-1">
-              <a href="#">Help Centre</a>
+            <li v-for="(item, i) in companyMenuItems" :key="i" class="py-1">
+              <a href="#" class="company-items">{{item.title}}</a>
             </li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-3">
           <ul class="list-unstyled list-spaced">
             <li class="mb-1">
-              <h5>Contact</h5>
+              <h5 class="contact-title">Contact</h5>
             </li>
-            <li class="py-1">
-              <a href="#">hello@saleswhale.com</a>
-            </li>
-            <li class="pt-2">
-              <a href="#" class="font-weight-bold">US Office</a>
-            </li>
-            <li class="">
-              <a href="#">1701 Rhode Island Ave NW
-              Washington, DC 20036</a>
-            </li>
-            <li class="pt-3">
-              <a href="#" class="font-weight-bold">Singapore Office</a>
-            </li>
-            <li class="">
-              <a href="#">155B Telok Ayer Street Singapore, 068611</a>
+            <li v-for="(item, i) in contactMenuItems" :key="i" :class="item.subtitled ? 'pt-3' : ''">
+              <a href="#" :class="item.subtitled ? 'font-weight-bold' : 'f'" class="contact-items">{{item.title}}</a>
             </li>
           </ul>
         </div>
@@ -123,9 +68,9 @@
           <p class="mt-3 font-16">&#169; 2020 SalesWhale, Inc. All rights reserved. </p>
         </div>
         <div class="col-lg-6 text-left desktop-only">
-          <a href="#" class="pr-3 font-weight-bold font-16">Privacy Policy</a>
-          <a href="#" class="font-weight-bold font-16">Terms of use</a>
-          <p class="mt-3 font-16">&#169; 2020 SalesWhale, Inc. All rights reserved. </p>
+          <a href="#" class="pr-3 font-weight-bold font-16 privacy-policy">Privacy Policy</a>
+          <a href="#" class="font-weight-bold font-16 terms-of-use">Terms of use</a>
+          <p class="mt-3 font-16 copyright">&#169; 2020 SalesWhale, Inc. All rights reserved.</p>
         </div>
         <div class="col-lg-3 ml-auto desktop-only">
           <a href="#" class=""><img src="../../assets/images/footer/fb.svg" alt="Logo" class="socials"></a>
@@ -138,7 +83,42 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      salesMenuItems: [
+        { title: 'Collaborative Intelligence' },
+        { title: 'AI Assistant Capabilities' },
+        { title: 'Customer Stories' },
+        { title: 'Use Case - Technology' },
+        { title: 'Use Case - Education' },
+        { title: 'Use Case - Events' }
+      ],
+      productMenuItems: [
+        { title: 'Product' },
+        { title: 'AI Conversations' },
+        { title: 'Lead Enrichment' },
+        { title: 'Deal Intelligence' },
+        { title: 'Workflow Integration' }
+      ],
+      companyMenuItems: [
+        { title: 'Company' },
+        { title: 'About us' },
+        { title: 'Blog' },
+        { title: 'Ressources' },
+        { title: 'Careers' },
+        { title: 'Help Centre' }
+      ],
+      contactMenuItems: [
+        { title: 'hello@saleswhale.com', subtitled: false },
+        { title: 'US Office', subtitled: true },
+        { title: '1701 Rhode Island Ave NW Washington, DC 20036', subtitled: false },
+        { title: 'Singapore Office', subtitled: true },
+        { title: '155B Telok Ayer Street Singapore, 068611', subtitled: false }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

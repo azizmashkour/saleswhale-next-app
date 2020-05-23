@@ -24,6 +24,10 @@ h2.common-title {
   background-color: #329DFA !important;
 }
 
+.btn:hover {
+  transform: scale(1.1);
+}
+
 .btn-primary:hover {
   color: #329DFA !important;
   background-color: #fff !important;
@@ -32,7 +36,9 @@ h2.common-title {
 .btn-outline-primary:hover {
   box-shadow: 0 30px 60px 0 rgba(38, 59, 94, 0.1);
 }
-.btn:active, .btn:focus, .btn-outline-primary.focus, .btn-outline-primary:focus {
+.btn:active, .btn:focus,
+.btn-outline-primary.focus, .btn-outline-primary:focus,
+button:active, button:focus {
   outline: none!important;
   box-shadow: none!important;
 }
@@ -52,6 +58,7 @@ h2.common-title {
 
 .btn {
   border-radius: 5px;
+  transition: 0.3s;
 }
 .btn-primary {
   background-color: #0688FA!important;

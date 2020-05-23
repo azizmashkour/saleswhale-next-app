@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Office.vue renders Office component when mounted 1`] = `
+<div
+  class="pt-4"
+  companymenuitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+  contactmenuitems="[object Object],[object Object],[object Object],[object Object],[object Object]"
+  id="footer"
+  productmenuitems="[object Object],[object Object],[object Object],[object Object],[object Object]"
+  salesmenuitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+>
+  <div
+    class="mx-5 pb-5"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="ml-5 col-12 col-lg-3 mb-3 mb-lg-0 col-md-3 mobile-ml-1"
+      >
+        <ul
+          class="list-unstyled list-spaced"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-lg-9"
+            >
+              <img
+                alt="Logo"
+                class="img-responsive"
+                src="../../assets/images/logo.svg"
+              />
+            </div>
+          </div>
+        </ul>
+      </div>
+       
+      <div
+        class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-4 ml-auto"
+      >
+        <ul
+          class="list-unstyled list-spaced"
+        >
+          <li
+            class="mb-1"
+          >
+            <h5
+              class="sales-title"
+            >
+              Why Saleswhale?
+            </h5>
+          </li>
+           
+          <li
+            class="py-1"
+          >
+            <a
+              class="sales-items"
+              href="#"
+            >
+              Collaborative Intelligence
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="sales-items"
+              href="#"
+            >
+              AI Assistant Capabilities
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="sales-items"
+              href="#"
+            >
+              Customer Stories
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="sales-items"
+              href="#"
+            >
+              Use Case - Technology
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="sales-items"
+              href="#"
+            >
+              Use Case - Education
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="sales-items"
+              href="#"
+            >
+              Use Case - Events
+            </a>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-3"
+      >
+        <ul
+          class="list-unstyled list-spaced"
+        >
+          <li
+            class="mb-1"
+          >
+            <h5
+              class="product-title"
+            >
+              Product
+            </h5>
+          </li>
+           
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-lg-12"
+            >
+              <li
+                class="py-1"
+              >
+                <a
+                  class="product-items"
+                  href="#"
+                >
+                  Product
+                </a>
+              </li>
+              <li
+                class="py-1"
+              >
+                <a
+                  class="product-items"
+                  href="#"
+                >
+                  AI Conversations
+                </a>
+              </li>
+              <li
+                class="py-1"
+              >
+                <a
+                  class="product-items"
+                  href="#"
+                >
+                  Lead Enrichment
+                </a>
+              </li>
+              <li
+                class="py-1"
+              >
+                <a
+                  class="product-items"
+                  href="#"
+                >
+                  Deal Intelligence
+                </a>
+              </li>
+              <li
+                class="py-1"
+              >
+                <a
+                  class="product-items"
+                  href="#"
+                >
+                  Workflow Integration
+                </a>
+              </li>
+            </div>
+          </div>
+        </ul>
+      </div>
+       
+      <div
+        class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-4 ml-auto desk-ml-auto"
+      >
+        <ul
+          class="list-unstyled list-spaced"
+        >
+          <li
+            class="mb-1"
+          >
+            <h5
+              class="company-title"
+            >
+              Company
+            </h5>
+          </li>
+           
+          <li
+            class="py-1"
+          >
+            <a
+              class="company-items"
+              href="#"
+            >
+              Company
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="company-items"
+              href="#"
+            >
+              About us
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="company-items"
+              href="#"
+            >
+              Blog
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="company-items"
+              href="#"
+            >
+              Ressources
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="company-items"
+              href="#"
+            >
+              Careers
+            </a>
+          </li>
+          <li
+            class="py-1"
+          >
+            <a
+              class="company-items"
+              href="#"
+            >
+              Help Centre
+            </a>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="col-6 col-lg-2 mb-3 mb-lg-0 col-md-3"
+      >
+        <ul
+          class="list-unstyled list-spaced"
+        >
+          <li
+            class="mb-1"
+          >
+            <h5
+              class="contact-title"
+            >
+              Contact
+            </h5>
+          </li>
+           
+          <li
+            class=""
+          >
+            <a
+              class="contact-items f"
+              href="#"
+            >
+              hello@saleswhale.com
+            </a>
+          </li>
+          <li
+            class="pt-3"
+          >
+            <a
+              class="contact-items font-weight-bold"
+              href="#"
+            >
+              US Office
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="contact-items f"
+              href="#"
+            >
+              1701 Rhode Island Ave NW Washington, DC 20036
+            </a>
+          </li>
+          <li
+            class="pt-3"
+          >
+            <a
+              class="contact-items font-weight-bold"
+              href="#"
+            >
+              Singapore Office
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="contact-items f"
+              href="#"
+            >
+              155B Telok Ayer Street Singapore, 068611
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="text-center copy-rights pt-5"
+  >
+    <div
+      class="row mx-5"
+    >
+      <div
+        class="col-lg-3 ml-auto mobile-only"
+      >
+        <a
+          href="#"
+        >
+          <img
+            alt="Logo"
+            class="socials"
+            src="../../assets/images/footer/fb.svg"
+          />
+        </a>
+         
+        <a
+          class="mx-3"
+          href="#"
+        >
+          <img
+            alt="Logo"
+            class="socials"
+            src="../../assets/images/footer/tw.svg"
+          />
+        </a>
+         
+        <a
+          href="#"
+        >
+          <img
+            alt="Logo"
+            class="socials"
+            src="../../assets/images/footer/lk.svg"
+          />
+        </a>
+         
+        <br />
+        <br />
+         
+        <a
+          class="font-weight-bold font-16"
+          href="#"
+        >
+          Privacy Policy
+        </a>
+         
+        <br />
+         
+        <br />
+         
+        <a
+          class="font-weight-bold font-16"
+          href="#"
+        >
+          Terms of use
+        </a>
+         
+        <p
+          class="mt-3 font-16"
+        >
+          © 2020 SalesWhale, Inc. All rights reserved. 
+        </p>
+      </div>
+       
+      <div
+        class="col-lg-6 text-left desktop-only"
+      >
+        <a
+          class="pr-3 font-weight-bold font-16 privacy-policy"
+          href="#"
+        >
+          Privacy Policy
+        </a>
+         
+        <a
+          class="font-weight-bold font-16 terms-of-use"
+          href="#"
+        >
+          Terms of use
+        </a>
+         
+        <p
+          class="mt-3 font-16 copyright"
+        >
+          © 2020 SalesWhale, Inc. All rights reserved.
+        </p>
+      </div>
+       
+      <div
+        class="col-lg-3 ml-auto desktop-only"
+      >
+        <a
+          href="#"
+        >
+          <img
+            alt="Logo"
+            class="socials"
+            src="../../assets/images/footer/fb.svg"
+          />
+        </a>
+         
+        <a
+          class="mx-3"
+          href="#"
+        >
+          <img
+            alt="Logo"
+            class="socials"
+            src="../../assets/images/footer/tw.svg"
+          />
+        </a>
+         
+        <a
+          href="#"
+        >
+          <img
+            alt="Logo"
+            class="socials"
+            src="../../assets/images/footer/lk.svg"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

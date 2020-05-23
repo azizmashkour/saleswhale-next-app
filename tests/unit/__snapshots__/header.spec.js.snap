@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component is a Vue instance 1`] = `
+exports[`Header.vue contains navbar menu element  renders Header component when mounted 1`] = `
 <section
   id="header"
+  items="[object Object],[object Object],[object Object]"
 >
   <div
     class="contact-us"
@@ -53,39 +54,30 @@ exports[`Component is a Vue instance 1`] = `
           class="navbar-nav mx-auto"
         >
           <li
-            class="nav-item active"
+            class="nav-item list-items"
           >
             <a
-              class="nav-link"
+              class="nav-link sales"
               href="#"
             >
-              
               Why Saleswhale?
-              
-              <span
-                class="sr-only"
-              >
-                (current)
-              </span>
             </a>
           </li>
-           
           <li
-            class="nav-item"
+            class="nav-item list-items"
           >
             <a
-              class="nav-link"
+              class="nav-link product"
               href="#"
             >
               Product
             </a>
           </li>
-           
           <li
-            class="nav-item"
+            class="nav-item list-items"
           >
             <a
-              class="nav-link"
+              class="nav-link company"
               href="#"
             >
               Company
@@ -100,7 +92,7 @@ exports[`Component is a Vue instance 1`] = `
             class="nav-item"
           >
             <a
-              class="nav-link nav-link-w-100 btn btn-outline-primary"
+              class="nav-link nav-link-w-100 btn btn-outline-primary login-btn"
               href="#"
             >
               
@@ -113,7 +105,7 @@ exports[`Component is a Vue instance 1`] = `
             class="nav-item active"
           >
             <a
-              class="nav-link nav-link-w-100 btn btn-primary ml-3 text-white mobile-margin-0"
+              class="nav-link nav-link-w-100 btn btn-primary ml-3 text-white mobile-margin-0 get-demo-btn"
               href="#"
             >
               
@@ -126,7 +118,7 @@ exports[`Component is a Vue instance 1`] = `
     </nav>
      
     <div
-      class="row mt-5 mobile-padding-0-2"
+      class="row mt-5 mobile-padding-0-2 mobile-mt-5"
     >
       <div
         class="col-lg-12"
@@ -148,7 +140,7 @@ exports[`Component is a Vue instance 1`] = `
         class="col-12 col-md-6 col-lg-6 mt-5 mobile-mt-4"
       >
         <h1
-          class="wow-h1 animated fadeInUp"
+          class="wow-h1 animated fadeInUp header-title"
         >
           A future where AI and humans work hand in hand
         </h1>
@@ -158,25 +150,25 @@ exports[`Component is a Vue instance 1`] = `
         class="col-12 col-md-6 col-lg-6 mt-5 px-0 mobile-mt-4"
       >
         <p
-          class="wow-p animated fadeInUp"
+          class="wow-p p1 animated fadeInUp"
         >
           At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.
         </p>
          
         <p
-          class="wow-p animated fadeInUp"
+          class="wow-p p2 animated fadeInUp"
         >
           AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative, high-impact work that creates value and inspires. The result? Happier and more productive teams doing meaningful work.
         </p>
          
         <p
-          class="wow-p animated fadeInUp"
+          class="wow-p p3 animated fadeInUp"
         >
           Our mission is to put an AI assistant in every company that could greatly benefit from it, and we're starting off strong addressing this need in marketing and sales teams all across the world.
         </p>
          
         <p
-          class="wow-p animated fadeInUp"
+          class="wow-p p4 animated fadeInUp"
         >
           The future is where AI and humans work hand in hand, and we’re here to help businesses benefit from that.
         </p>

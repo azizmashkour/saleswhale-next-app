@@ -1,23 +1,16 @@
 <template>
   <section id="office" class="mt-5 text-center mobile-padding-0-2">
-    <h2 class="common-title animated fadeInUp">Our Office</h2>
+    <h2 class="common-title animated fadeInUp office-title">Our Office</h2>
     <div class="our-office container">
       <div class="row mt-5">
-        <div class="col-lg-6 col-md-6 col-12">
+        <div v-for="(item, i) in list" :key="i" class="col-lg-6 col-md-6 col-12 office-items">
           <div class="main-container p-4 animated fadeInUp">
-            <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
-            <div class="desc-container">
-              <h3 class="mt-4">Singapore</h3>
-              <p>155B Telok Ayer Street Singapore, 068611</p>
+            <div class="office-header-image-container">
+              <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-12">
-          <div class="main-container p-4 animated fadeInUp desktop-mt-2">
-            <img src="../../assets/images/culture/img1.svg" alt="bg" class="w-100">
             <div class="desc-container">
-              <h3 class="mt-4">Washington DC</h3>
-              <p>1701 Rhode Island Ave NW Washington, DC 20036</p>
+              <h3 class="mt-4">{{item.title}}</h3>
+              <p>{{item.address}}</p>
             </div>
           </div>
         </div>
@@ -27,7 +20,22 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      list: [
+        {
+          title: 'Singapore',
+          address: '155B Telok Ayer Street Singapore, 068611'
+        },
+        {
+          title: 'Washington DC',
+          address: '1701 Rhode Island Ave NW Washington, DC 20036'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">
@@ -52,9 +60,6 @@ export default {}
       border-radius: 5px;
       text-align: center;
       background-color: #fff;
-      img {
-        height: 80px;
-      }
       h3 {
         font-weight: bold;
         font-size: 32px;
@@ -64,6 +69,13 @@ export default {}
       p {
         color: #002240;
         padding: 0 5rem;
+      }
+      .office-header-image-container {
+        background-color: #F4F4F4;
+        height: 80px;
+        width: 80px;
+        display: inline-table;
+        border-radius: 50%;
       }
     }
     .main-container:hover {
