@@ -1,5 +1,7 @@
 # saleswhale-next-app
 
+[![CircleCI](https://circleci.com/gh/azizmashkour/saleswhale-next-app.svg?style=svg&circle-token=d80bdb01ae25fce57ec123c2dc6142542bc7a3f9)](https://github.com/azizmashkour/saleswhale-next-app)
+
 This project was generated with [Vue-cli](https://cli.vuejs.org/config/)
 
 ## Libraries used
@@ -23,7 +25,7 @@ Run `yarn build` to build the project. The build artifacts will be stored in the
 
 ## Running unit tests
 
-Run `npm run test` or `yarn test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run test:unit` or `yarn test:unit` for unitestings...
 
 ### Lints and fixes files
 ```
@@ -31,4 +33,4 @@ yarn run lint
 ```
 
 ## Demo
-You will find a Demo or the working project [here](https://***.firebaseapp.com/)
+You will find a Demo or the working project [here](https://saleswhale-1a11f.firebaseapp.com/)
