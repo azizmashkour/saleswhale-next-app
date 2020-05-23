@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress.vue renders Header component when mounted 1`] = `
+<section
+  class="mt-5 container mb-5 px-0 px-sm-2"
+  id="progress"
+  items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+>
+  <h2
+    class="common-title text-center mb-5 animated fadeInUp responsive-text-center progress-title"
+  >
+    Our Progress
+  </h2>
+   
+  <div
+    class="our-progress px-sm-5"
+  >
+    <table
+      class="table-year"
+    >
+      <tr
+        class="progress-items"
+      >
+        <td>
+          <div
+            class="align-center year-container"
+          >
+            2015
+          </div>
+        </td>
+         
+        <td
+          class="mid-col"
+        >
+          <img
+            alt="bg"
+            class="msg"
+            src="../../assets/images/progress/msg.svg"
+          />
+        </td>
+         
+        <td>
+          <span
+            class="align-center short-desc"
+          >
+            Founded in Singapore by Gabriel Lim, Ethan Le, and Venus Wong
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="progress-items"
+      >
+        <td>
+          <div
+            class="align-center year-container"
+          >
+            2016
+          </div>
+        </td>
+         
+        <td
+          class="mid-col"
+        >
+          <img
+            alt="bg"
+            class="msg"
+            src="../../assets/images/progress/msg.svg"
+          />
+        </td>
+         
+        <td>
+          <span
+            class="align-center short-desc"
+          >
+            Accepted into Y Combinator (S16) and moved to San Francisco
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="progress-items"
+      >
+        <td>
+          <div
+            class="align-center year-container"
+          >
+            2017
+          </div>
+        </td>
+         
+        <td
+          class="mid-col"
+        >
+          <img
+            alt="bg"
+            class="msg"
+            src="../../assets/images/progress/msg.svg"
+          />
+        </td>
+         
+        <td>
+          <span
+            class="align-center short-desc"
+          >
+            Raised US$1.2M in seed funding and hired core engineers
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="progress-items"
+      >
+        <td>
+          <div
+            class="align-center year-container"
+          >
+            2018
+          </div>
+        </td>
+         
+        <td
+          class="mid-col"
+        >
+          <img
+            alt="bg"
+            class="msg"
+            src="../../assets/images/progress/msg.svg"
+          />
+        </td>
+         
+        <td>
+          <span
+            class="align-center short-desc"
+          >
+            Raised US$5.3M in Series A and expanded team size
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="progress-items"
+      >
+        <td>
+          <div
+            class="align-center year-container"
+          >
+            2019
+          </div>
+        </td>
+         
+        <td
+          class="mid-col"
+        >
+          <img
+            alt="bg"
+            class="msg"
+            src="../../assets/images/progress/msg.svg"
+          />
+        </td>
+         
+        <td>
+          <span
+            class="align-center short-desc"
+          >
+            Raised US$5.3M in Series A and expanded team size
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="progress-items"
+      >
+        <td>
+          <div
+            class="align-center year-container"
+          >
+            2020
+          </div>
+        </td>
+         
+        <td
+          class="mid-col"
+        >
+          <img
+            alt="bg"
+            class="msg"
+            src="../../assets/images/progress/msg.svg"
+          />
+        </td>
+         
+        <td>
+          <span
+            class="align-center short-desc"
+          >
+            Opened US office in Washington, DC and hired US sales team
+          </span>
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+`;
