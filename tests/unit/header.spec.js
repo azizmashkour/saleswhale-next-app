@@ -1,3 +1,5 @@
+// header component test file
+
 import { shallowMount } from '@vue/test-utils'
 import Header from '@/components/shared/Header'
 
@@ -45,7 +47,7 @@ describe('Header.vue', () => {
     })
   })
 
-  describe('contains title and paragraphes ', () => {
+  describe('contains title and paragraphes', () => {
     it('renders the header h1 tag title', () => {
       expect(wrapper.contains('h1.wow-h1')).toBe(true)
       expect(wrapper.find('h1.wow-h1').text()).toEqual('A future where AI and humans work hand in hand')
