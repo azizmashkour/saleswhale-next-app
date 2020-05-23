@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Office.vue renders Header component when mounted 1`] = `
+exports[`Office.vue renders Office component when mounted 1`] = `
 <section
   class="mt-5 text-center mobile-padding-0-2"
   id="office"

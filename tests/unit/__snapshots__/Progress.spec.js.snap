@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Progress.vue renders Header component when mounted 1`] = `
+exports[`Progress.vue renders Progress component when mounted 1`] = `
 <section
   class="mt-5 container mb-5 px-0 px-sm-2"
   id="progress"
