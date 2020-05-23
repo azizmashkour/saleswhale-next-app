@@ -49,6 +49,23 @@ export default {
 </script>
 
 <style lang="scss">
+@media (min-width: 320px) and (max-width: 600px) {
+  #progress {
+    table.table-year {
+      .short-desc {
+        font-size: 14px!important;
+        line-height: 24px!important;
+      }
+      .year-container {
+        font-size: 14px!important;
+        line-height: 24px!important;
+      }
+    }
+    .progress-title {
+      text-align: center!important;
+    }
+  }
+}
 #progress {
   .our-progress {
     background-color: #EFF8FF;
