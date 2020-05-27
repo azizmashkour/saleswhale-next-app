@@ -59,10 +59,9 @@ export default {
   },
   mounted () {
     const loader = document.querySelector('#preloader')
-
-    setTimeout(function () {
+    window.addEventListener('load', function (event) {
       loader.classList.add('d-none')
-    }, 3000)
+    })
   }
 }
 </script>
